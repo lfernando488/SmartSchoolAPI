@@ -18,5 +18,12 @@
             ProfessorId = professorId;
             Professor = professor;
         }
+
+        public Disciplina(int id, string nome, int professorId)
+        {
+            Id = id;
+            Nome = nome;
+            ProfessorId = professorId;
+        }
     }
 }
